@@ -13,7 +13,32 @@ const poohQuotes = {
         quote: "You never can tell with bees.",
         author: "A.A. Milne, Winnie-the-Pooh",
         tags: ['pooh', 'bees']
-    }
+    },
+    4: {
+        quote: "You never can tell with bees.",
+        author: "A.A. Milne, Winnie-the-Pooh",
+        tags: ['pooh', 'bees']
+    },
+    5: {
+        quote: "You never can tell with bees.",
+        author: "A.A. Milne, Winnie-the-Pooh",
+        tags: ['pooh', 'bees']
+    },
+    6: {
+        quote: "You never can tell with bees.",
+        author: "A.A. Milne, Winnie-the-Pooh",
+        tags: ['pooh', 'bees']
+    },
+    7: {
+        quote: "You never can tell with bees.",
+        author: "A.A. Milne, Winnie-the-Pooh",
+        tags: ['pooh', 'bees']
+    },
+    8: {
+        quote: "You never can tell with bees.",
+        author: "A.A. Milne, Winnie-the-Pooh",
+        tags: ['pooh', 'bees']
+    },
 }
 
 
