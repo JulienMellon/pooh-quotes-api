@@ -24,19 +24,6 @@ app.use(express.json());
 
 app.use("/", poohRoutes);
 
-// app.get('/api/:piglet',(request,response)=>{
-//   console.log(request.params.piglet)
-//   const piglet = request.params.piglet
-
-//   if( poohQuotes[piglet] ){
-//       response.json(poohQuotes[piglet])
-//   }else{
-//       response.json(poohQuotes[2])
-//   }
-  
-// })
-
-
 app.listen(process.env.PORT, () => {
     console.log(`Server is running on PORT ${process.env.PORT} , hurry up it's getting away!`);
   });
