@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const poohRoutes = require('./routes/main')
+const poohQuotes = require("./models/poohquotes");
 
 // environment variables
 require("dotenv").config();
@@ -15,13 +16,25 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 
 //cors
-app.use(cors())
+// app.use(cors())
 
 //body parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use("/", poohRoutes);
+
+// app.get('/api/:piglet',(request,response)=>{
+//   console.log(request.params.piglet)
+//   const piglet = request.params.piglet
+
+//   if( poohQuotes[piglet] ){
+//       response.json(poohQuotes[piglet])
+//   }else{
+//       response.json(poohQuotes[2])
+//   }
+  
+// })
 
 
 app.listen(process.env.PORT, () => {
