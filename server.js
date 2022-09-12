@@ -1,6 +1,7 @@
 //Variables
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const poohRoutes = require('./routes/main')
 
 // environment variables
@@ -12,6 +13,9 @@ app.use(express.static("public"));
 
 // for displaying docs
 app.set("view engine", "ejs");
+
+//cors
+app.use(cors())
 
 //body parsing
 app.use(express.urlencoded({ extended: true }));
