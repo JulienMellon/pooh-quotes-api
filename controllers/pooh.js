@@ -18,5 +18,16 @@ module.exports = {
     } 
     console.log('Random Pooh Summoned')
     res.json(randomPooh())
+  },
+  piglet: (request,response)=>{
+    console.log(request.params.piglet)
+    const piglet = request.params.piglet
+  
+    if( poohQuotes[piglet] ){
+        response.json(poohQuotes[piglet])
+    }else{
+        response.json(poohQuotes[2])
+    }
+    
   }
 };
