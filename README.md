@@ -6,4 +6,8 @@
 
 I just love Winnie the Pooh
 
-### fancier readme under construction
+### Deploy
+
+currently deployed to:
+
+poohquotes.herokuapp.com/
