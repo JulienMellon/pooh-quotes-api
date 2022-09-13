@@ -1,5 +1,4 @@
 const poohQuotes = {
-    count: 20,
     data: [{
         quote: "You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.",
         author: "winnie-the-pooh",
