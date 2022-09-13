@@ -13,8 +13,8 @@ module.exports = {
   },
   getRandom: (req, res) => {
     const randomPooh = () => {
-        let a = Math.floor(Math.random() * 8);
-        return poohQuotes[a]
+        let a = Math.floor(Math.random() * 20);
+        return poohQuotes.data[a]
     } 
     console.log('Random Pooh Summoned')
     res.json(randomPooh())
