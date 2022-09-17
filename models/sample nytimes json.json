@@ -1,0 +1,62 @@
+
+Julien Mellon <mellon.julien@gmail.com>
+10:23 AM (4 hours ago)
+to me
+
+{   
+    "user":{
+        "type":"anon",
+        "watSegs":"",
+        "nytdOtherData":{},
+        "subInfo":{},
+        "tracking":
+        {
+            "lastRequest":1663424520939,
+            "activeDays":"[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]",
+            "uid":0,
+            "adv":1,
+            "a7dv":1,
+            "a14dv":1,
+            "a21dv":1,
+            "lastKnownType":"anon"
+        },
+        "subscriberInfo":{
+            "giftSubscriptionRecipient":false,
+            "childSubscription":false,
+            "b2bSubscription":false,
+            "coreOnPromotion":false,
+            "formerCoreSubscriber":false,
+            "formerHDSubscriber":false,
+            "formerEduSubscriber":false,
+            "marketingOptIn":false,
+            "formerCrosswordSubscriber":false,
+            "formerCookingSubscriber":false,
+            "giftGiver":false,
+            "digiGrace":false,
+            "gatewayHitLM":false,
+            "cookingGrace":false,
+            "crosswordsGrace":false,"verizonSchool":false},
+            "actioniq":
+                {"audience_split_ids":[]},
+            "adv_scores":{"audience_split_ids":[]},
+            "adv_segments":{"segments":[]}
+    },
+    "version":"v3-1-53.446478190611658062",
+    "asset":{
+        "wordCount":0,
+        "publishedDate":683164800000,
+        "url":"https://www.nytimes.com/1991/08/26/us/officer-defends-giving-boy-back-to-dahmer.html","headline":"Officer Defends Giving Boy Back to Dahmer",
+        "desk":"National Desk",
+        "typeOfMaterial":"News",
+        "derivedDesk":"national_desk",
+        "type":"article",
+        "desFacets":["HOMOSEXUALITY","RACIAL RELATIONS","MURDERS AND ATTEMPTED MURDERS","SERIAL MURDERS"],
+        "geoFacets":["MILWAUKEE (WIS)"],
+        "perFacets":["GABRISH, JOSEPH T","DAHMER, JEFFREY L"]
+    },
+    "ip":{
+        "corp":null,
+        "edu":null
+    },
+    "session":{"isLoggedIn":false}
+}

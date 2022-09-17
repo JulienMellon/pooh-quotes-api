@@ -1,5 +1,6 @@
 const poohQuotes = {
-    data: [{
+    data: 
+        [{
         quote: "You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.",
         author: "winnie-the-pooh",
         tags: ['pooh', 'forest']
@@ -21,12 +22,12 @@ const poohQuotes = {
     },
     {
         quote: "After all, one can't complain. I have my friends.",
-        author: "Eeyore",
+        author: "eeyore",
         tags: ['eeyore', 'friendship']
     },
     {
         quote: "The things that make me different are the things that make me, me.",
-        author: "Piglet",
+        author: "piglet",
         tags: ['piglet', 'self']
     },
     {
@@ -41,7 +42,7 @@ const poohQuotes = {
     },
     {
         quote: "A little consideration, a little thought for others, makes all the difference.",
-        author: "Eeyore",
+        author: "eeyore",
         tags: ['eeyore', 'consideration', 'friendship']
     },
      {
@@ -56,7 +57,7 @@ const poohQuotes = {
     },
     {
         quote: "If the string breaks, then we try another piece of string.",
-        author: "owl",
+        "author": "owl",
         tags: ['owl', 'goals', 'perseverance']
     },
     {
@@ -90,7 +91,7 @@ const poohQuotes = {
         tags: ['pooh', 'friendship']
     },
     {
-        quote: "If the person you are talking to doesn’t appear to be listening, be patient. It may simply be that he has a small piece of fluff in his ear.",
+        quote: "If the person you are talking to doesn't appear to be listening, be patient. It may simply be that he has a small piece of fluff in his ear.",
         author: "winnie-the-pooh",
         tags: ['pooh']
     },
@@ -98,7 +99,13 @@ const poohQuotes = {
         quote: "The things that make me different are the things that make me.",
         author: "winnie-the-pooh",
         tags: ['pooh']
-    }]
+    }],
+    kanga: {
+        id: 2121,
+        quote: "If the person you are talking to doesn't appear to be listening, be patient. It may simply be that he has a small piece of fluff in his ear.",
+        author: "winnie-the-pooh",
+        tags: ['pooh']
+    },
 }
 
 
