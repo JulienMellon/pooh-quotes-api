@@ -8,12 +8,8 @@ module.exports = {
           res.render("index.ejs");
           console.log(`There are ${8} Pooh Quotes to enjoy!`)
         },
-  getAll: (req, res) => {
-    res.json(poohQuotes)
-  },
   getPooh: (req, res) => {
-    let query = req.params.query
-    res.json(poohQuotes[query])
+    res.json(poohQuotes)
   },
   getRandom: (req, res) => {
     const randomPooh = () => {
@@ -24,14 +20,12 @@ module.exports = {
     res.json(randomPooh())
   },
   piglet: (request,response)=>{
-    console.log(request.params.tigger)
-    const userQuery = request.params.tigger
-    let showThis = poohQuotes.data.filter(x => x.author == userQuery)
-    console.log(showThis)
-    if( showThis[0]){
-        response.json(showThis)
+    console.log(request.params.piglet)
+    const piglet = request.params.piglet
+  
+    if( poohQuotes[piglet] ){
+        response.json(poohQuotes[piglet])
     }else{
-        // show default poohquote
         response.json(poohQuotes[2])
     }
     
