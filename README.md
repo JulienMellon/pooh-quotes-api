@@ -9,7 +9,7 @@
 
 **Tech used:** HTML, CSS, JavaScript, Node, Express, 
 
-Since Winnie-The-Pooh is now public domain, I wanted to share Pooh's wisdom and love for honey! I wanted to create a REST API that responded to a simple GET with a JSON object filled with sayings straight from the Hundred-Acre-Wood.  There is a little object that can easily be replaced by a full database that serves to provide a source of quotes.  E. H. Shepard's illustrations from *The House At Pooh Corner* are wonderful, imagination-expanding and public domain and so served as inspiration for the front-end.  
+Since Winnie-The-Pooh is now public domain, I wanted to share Pooh's wisdom and love for honey by creating a REST API that responded to a simple GET with a JSON object filled with sayings straight from the Hundred-Acre-Wood.  There is a little object that can easily be replaced by a full database that serves to provide a source of quotes.  E. H. Shepard's illustrations from *The House At Pooh Corner* are wonderful, imagination-expanding and public domain and so served as inspiration for the front-end.  
 
 ## Optimizations
 
