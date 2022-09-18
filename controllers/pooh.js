@@ -12,8 +12,23 @@ module.exports = {
     res.json(poohQuotes)
   },
   getPooh: (req, res) => {
+    const querry = req.query;// query = {sex:"female"}
+  
+    const params = req.params; //params = {id:"000000"}
     let query = req.params.query
-    res.json(poohQuotes[query])
+    let qq = req.query.data
+    console.log(querry)
+    console.log(params)
+    // res.send('user' + req.params.query)
+    const {quote, author, tags} = req.query;
+    console.log (`quote ${quote}`)
+    console.log (`atuhor ${author}`)
+    console.log (`tags ${tags}`)
+    if (querry){
+      res.json(poohQuotes.data.filter( x => author in x ? true: false ) )
+    }else{
+      res.json(poohQuotes.data[2])
+    }
   },
   getRandom: (req, res) => {
     const randomPooh = () => {
@@ -24,7 +39,8 @@ module.exports = {
     res.json(randomPooh())
   },
   piglet: (request,response)=>{
-    console.log(request.params.tigger)
+    console.log(`tigger ${request.params.tigger}`)
+    console.log(`query ${request.query}`)
     const userQuery = request.params.tigger
     let showThis = poohQuotes.data.filter(x => x.author == userQuery)
     console.log(showThis)
