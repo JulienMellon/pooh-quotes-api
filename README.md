@@ -1,7 +1,7 @@
 # Winnie-The-Pooh Quotes API
 
 
-**Link to Live version of project:** https://poohquotes.herokuapp.com/
+**Link to Live version of project:** [https://poohquotes.herokuapp.com/](https://poohquotes.cyclic.app/)
 
 ![a screenshot of the project index.html](https://cdn.discordapp.com/attachments/946850401536319571/1021022470016344064/unknown.png)
 
