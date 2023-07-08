@@ -16,7 +16,7 @@ module.exports = {
         let a = Math.floor(Math.random() * 20);
         return poohQuotes.data[a]
     } 
-    console.log('Random Pooh Summoned')
+    console.log('Random Pooh Quote Summoned')
     res.json(randomPooh())
   },
   piglet: (request,response)=>{
